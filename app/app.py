@@ -4,8 +4,13 @@ import pandas as pd
 
 # Load trained model
 
+import os
+import pickle
 
-model = pickle.load(open("../models/house_price_model.pkl", "rb"))
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+model_path = os.path.join(BASE_DIR, "models", "house_price_model.pkl")
+
+model = pickle.load(open(model_path, "rb"))
 
 st.title("House Price Prediction")
 
