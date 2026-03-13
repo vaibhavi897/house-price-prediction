@@ -18,3 +18,5 @@ Machine Learning project that predicts house prices using property features.
 ```bash
 pip install -r requirements.txt
 streamlit run app/app.py
+
+https://house-price-prediction-eewykqldmwsujyg8n5pjzo.streamlit.app/

@@ -21,7 +21,7 @@ overall_qual = st.slider("Overall Quality", 1, 10, 5)
 gr_liv_area = st.number_input("Living Area (sq ft)", 500, 5000, 1500)
 garage_cars = st.slider("Garage Capacity", 0, 4, 1)
 total_bsmt_sf = st.number_input("Basement Area", 0, 3000, 800)
-year_built = st.number_input("Year Built", 1900, 2024, 2000)
+year_built = st.number_input("Year Built", 1900, 2035, 2000)
 
 # Create dataframe from inputs
 input_data = pd.DataFrame({
