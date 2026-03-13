@@ -4,7 +4,8 @@ import pandas as pd
 
 # Load trained model
 
-model = pickle.load(open("models/house_price_model.pkl", "rb"))
+
+model = pickle.load(open("../models/house_price_model.pkl", "rb"))
 
 st.title("House Price Prediction")
 
